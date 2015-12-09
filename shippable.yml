@@ -6,7 +6,7 @@ python:
 services:
   - rabbitmq
 
-build_image: shippable/minv2
+#build_image: shippable/minv2
 
 install:
   - pip install -r requirements.txt
